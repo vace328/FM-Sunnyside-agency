@@ -4,39 +4,37 @@
 ------------------------------------------------------------------------------*/
 @import "base/reset";
 @import "base/variables";
-@import "base/colors";
+// @import "base/colors";
 @import "base/typography"; 
 
 /*----------  helpers
 ------------------------------------------------------------------------------*/
-@import "helpers/mixins";   
-@import "helpers/functions"; 
+// @import "helpers/mixins";   
+// @import "helpers/functions"; 
 
 /*----------  components
 ------------------------------------------------------------------------------*/
-@import "components/cover";
-@import "components/icons";
-@import "components/buttons";
-@import "components/carousel";
-@import "components/dropdown";
-@import "components/navigation";
+// @import "components/cover";
+// @import "components/icons";
+// @import "components/buttons";
+// @import "components/carousel";
+// @import "components/dropdown";
+// @import "components/navigation";
 /*----------  libs
 ------------------------------------------------------------------------------*/
 
 /*----------  layout
 ------------------------------------------------------------------------------*/
-@import "layout/forms";
+// @import "layout/forms";
 @import "layout/header"; 
-@import "layout/footer";    
-@import "layout/sidebar";  
-@import "layout/grid";  
+// @import "layout/footer";    
+// @import "layout/sidebar";  
+// @import "layout/grid";  
   
 
 /*----------  pages
 ------------------------------------------------------------------------------*/
 
-/*----------  themes
-------------------------------------------------------------------------------*/
 
 /*----------  vendors
 ------------------------------------------------------------------------------*/ 
@@ -46,13 +44,37 @@
     box-sizing: border-box;
 }
 
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0,0);
-    border: 0;
+// .sr-only {
+//     position: absolute;
+//     width: 1px;
+//     height: 1px;
+//     padding: 0;
+//     margin: -1px;
+//     overflow: hidden;
+//     clip: rect(0,0,0,0,0);
+//     border: 0;
+// }
+
+// @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+body {
+  background: #509bfd;
+  // font-family: "Quicksand", sans-serif;
 }
+
+// .container {
+//   width: 100%;
+//   margin: 0;
+// }
+
+// header {
+//   background: #e54b4b;
+//   color: #ebebd3;
+//   // padding: 1em 0;
+//   position: relative;
+// }
+
+
+
+
+
