@@ -1,4 +1,9 @@
 body {
     font-family: $ffamily_primary;
-    font-size: $ffamily_primary;
+    font-size: $fsize_primary;
+}
+
+h2 {
+    font-size: 40px;
+    color: $neutral_lvl_5;
 }

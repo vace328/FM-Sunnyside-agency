@@ -1,0 +1,11 @@
+.hero {
+    min-height: 448px;
+    background-image: url('../images/mobile/image-header.jpg');
+    background-size:cover;
+    background-position: center bottom; 
+    background-repeat: no-repeat;
+    display: block;
+    h2 {
+        color: $neutral_lvl_1;
+    }
+}
