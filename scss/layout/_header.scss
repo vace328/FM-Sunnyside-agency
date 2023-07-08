@@ -2,6 +2,7 @@ header {
     color: #ebebd3;
     padding: 32px 16px;
     position: relative;
+    background-color: aquamarine;
     // border-bottom: 1px solid black;
 }
 
@@ -114,7 +115,8 @@ header {
     background: transparent;
     border: 0;
     position: absolute;
-    top: calc(50% - 3px);
+    // top: calc(50% - 3px);
+    top: 50%;
     transform: translateY(-50%);
     right: 9px;
     cursor: pointer;

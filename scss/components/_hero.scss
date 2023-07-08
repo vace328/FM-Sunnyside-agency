@@ -1,11 +1,40 @@
 .hero {
     min-height: 448px;
     background-image: url('../images/mobile/image-header.jpg');
-    background-size:cover;
+    background-size: cover;
     background-position: center bottom; 
     background-repeat: no-repeat;
     display: block;
+    padding-top: 54px;
     h2 {
         color: $neutral_lvl_1;
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: normal;
     }
+    .arrow {
+        padding-top: 48px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hero {
+        height: 673px;
+        background-size: cover;
+        background-image: url('../images/desktop/image-header.jpg');
+        padding-top: 68px;
+        h2 {
+            font-size: 56px;
+            letter-spacing: 9px;
+        }
+        .arrow {
+            padding-top: 92px;
+        }
+    }
+    
+    
 }
