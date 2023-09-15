@@ -121,6 +121,18 @@ header {
     right: 9px;
     cursor: pointer;
 }
+
+// Make sure click gets triggered even if user clicks between burger bars
+.menu-toggle:after {
+    position:absolute;
+    content: '';
+    top: -200%;
+    right: 6px;
+    background: transparent;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
   
 .hamburger,
 .hamburger::before,
