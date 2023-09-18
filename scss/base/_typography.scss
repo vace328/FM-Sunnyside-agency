@@ -3,8 +3,23 @@ body {
     font-size: $fsize_primary;
 }
 
-h2 {
+h2, h3 {
     font-size: 40px;
     color: $neutral_lvl_5;
     font-family: $ffamily_accent;
+}
+
+h3 {
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    text-align: center;
+    font-weight: 900;
+    line-height: normal;
+}
+
+p {
+    color: $neutral_lvl_2;
+    line-height: 164%; /* 29.52px */
+    letter-spacing: -0.126px;
+    text-align: center;
 }
