@@ -52,10 +52,81 @@ article {
         border-radius: 8px;
         z-index: -1;
         opacity: .3;
-    }
+        transition: 1s;
+    }    
+}
+
+.btn-link:hover::before {
+    animation-name: shake;
+    animation-duration: .2s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease;
+    opacity: 1;
 }
 
 .services article:nth-of-type(2) .btn-link::before {
     background: $accent_prim;
 }
 
+@media screen and (min-width: 1330px) { 
+    article {
+        min-height: 600px;
+    }
+    .article-text-container {
+        padding-top: 158px;
+        padding-bottom: 161px;
+        padding-left: 156px;
+        
+        h3 {
+            font-size: 40px;
+            margin-bottom: 34px;
+            text-align: left;
+            max-width: 440px;
+            line-height: normal;
+            letter-spacing: 0px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 42px;
+            text-align: left;
+            max-width: 440px;
+        }
+    }
+    .btn-link {
+        text-align: left;
+        padding-left: 10px;
+        &::before {
+            width: 136px;
+            height: 12px;            
+            top: 100%;
+            left: 0;
+            transform: translate(0, -8px);
+            border-radius: 8px;
+            z-index: -1;
+            opacity: .3;
+        }
+    }
+    article:nth-of-type(2) .article-text-container {
+        padding-top: 156px;
+        padding-left: 109px;
+    }
+    .btn-link:hover::before {
+        animation-name: shakeLG;    
+    }
+}
+
+
+@keyframes shake {
+    0% {
+        left: 51%;
+    }
+    50% {
+        left: 49%;
+    }
+    100% {left: 50%;}
+}
+@keyframes shakeLG {
+    0% {left: 1%;}
+    50% {left: -1%;}
+    100% {left: 0%;}
+}
