@@ -2,6 +2,7 @@ header {
     color: #ebebd3;
     padding: 32px 16px;
     position: relative;
+    background-color: aquamarine;
     // border-bottom: 1px solid black;
 }
 
@@ -114,10 +115,23 @@ header {
     background: transparent;
     border: 0;
     position: absolute;
-    top: calc(50% - 3px);
+    // top: calc(50% - 3px);
+    top: 50%;
     transform: translateY(-50%);
     right: 9px;
     cursor: pointer;
+}
+
+// Make sure click gets triggered even if user clicks between burger bars
+.menu-toggle:after {
+    position:absolute;
+    content: '';
+    top: -200%;
+    right: 6px;
+    background: transparent;
+    display: block;
+    width: 24px;
+    height: 24px;
 }
   
 .hamburger,

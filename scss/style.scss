@@ -14,7 +14,7 @@
 
 /*----------  components
 ------------------------------------------------------------------------------*/
-// @import "components/cover";
+@import "components/hero";
 // @import "components/icons";
 // @import "components/buttons";
 // @import "components/carousel";
@@ -67,12 +67,9 @@ body {
 //   margin: 0;
 // }
 
-// header {
-//   background: #e54b4b;
-//   color: #ebebd3;
-//   // padding: 1em 0;
-//   position: relative;
-// }
+section img {
+  width: 100%;
+}
 
 
 
