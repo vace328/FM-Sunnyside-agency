@@ -15,6 +15,7 @@
 /*----------  components
 ------------------------------------------------------------------------------*/
 @import "components/hero";
+@import "components/testimonial";
 // @import "components/icons";
 // @import "components/buttons";
 // @import "components/carousel";
@@ -28,6 +29,7 @@
 // @import "layout/forms";
 @import "layout/header"; 
 @import "layout/services"; 
+@import "layout/testimonials"; 
 // @import "layout/footer";    
 // @import "layout/sidebar";  
 // @import "layout/grid";  
@@ -59,8 +61,8 @@
 // @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 body {
-  background: #509bfd;
-  background: red;
+  // background: #509bfd;
+  background: white;
   // font-family: "Quicksand", sans-serif;
 }
 
